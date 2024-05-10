@@ -1,0 +1,45 @@
+@startuml tomb_of_the_mask
+
+class Jugador {
+    - Máscara: Máscara
+    - Vidas: int
+    - Puntuación: int
+    + MoverArriba(): void
+    + MoverAbajo(): void
+    + MoverIzquierda(): void
+    + MoverDerecha(): void
+    + RecolectarMoneda(): void
+}
+
+class Máscara {
+    - Diseño: string
+    + CargarDiseño(path: string): void
+    + Dibujar(): void
+}
+
+class Enemigo {
+    - Tipo: string
+    + Actuar(): void
+}
+
+class Nivel {
+    - Enemigos: list<Enemigo>
+    - Velocidad: int
+    + AgregarEnemigo(enemigo: Enemigo): void
+    + AumentarVelocidad(): void
+}
+
+class Juego {
+    - Jugador: Jugador
+    - Nivel: Nivel
+    + IniciarJuego(): void
+    + VerificarColisiones(): void
+    + ActualizarEstado(): void
+}
+
+Jugador "1" -- "1" Máscara
+Juego "1" -- "1" Jugador
+Juego "1" -- "1" Nivel
+Jugador "1" -- "*" Enemigo
+
+@enduml
