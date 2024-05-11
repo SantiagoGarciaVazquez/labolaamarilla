@@ -14,9 +14,9 @@ int main()
 {
     auto screen = ScreenInteractive::FitComponent();
 
-    int mascara_x = 0; //Posición (0, 0).
-    int mascara_y = 0;
-    Mascara mascara(mascara_x, mascara_y);
+    int bola_x = 0; //Posición (0, 0).
+    int bola_y = 0;
+    Bola bolita(bola_x, bola_y);
 
     while (true)
     {

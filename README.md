@@ -18,4 +18,4 @@ Demuestra tus habilidades de navegación y tu rapidez de reflejos mientras enfre
 ## Requisitos del Sistema
 - Sistema operativo: Se requiere un sistema operativo compatible con C++ y las bibliotecas utilizadas.
 - Compilador C++: Se recomienda usar un compilador C++ compatible con C++17 o superior.
-- Bibliotecas: Se requiere instalar las bibliotecas necesarias para compilar y ejecutar el juego (consulte la sección de dependencias en el README para obtener más información).
+

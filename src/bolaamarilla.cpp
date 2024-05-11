@@ -1,5 +1,5 @@
 #include <fstream>
-#include "Bolaamarilla.hpp" // Asegúrate de incluir el archivo de encabezado de la clase Bolaamarilla.
+#include "Bolaamarilla.hpp"
 
 using namespace std;
 using namespace ftxui;

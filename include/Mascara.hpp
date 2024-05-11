@@ -6,10 +6,10 @@
 using namespace std;
 using namespace ftxui;
 
-class Carrito
+class Bolamaarilla
 {
 public:
-    Carrito(int x, int y);
+    Bolamaarilla(int x, int y);
     Element Render();
     void MoveLeft();
     void MoveRight();
